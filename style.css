@@ -63,9 +63,9 @@ section:not(#three) {
       /* 1 */
       display: flex;
       /* 2 */
-      flex-direction: row-reverse;
+      justify-content: flex-end;
       /* 3 */
-      flex-direction: column-reverse;
+      flex-direction: column;
       /* 4 */
       align-items: center;
   }
@@ -74,23 +74,17 @@ section:not(#three) {
       /* 5 */
       display: flex;
       /* 6 */
-      flex-direction: column-reverse;
-      /* 7 */
-      flex-direction: row;
-      justify-content: center;
       align-items: center;
-      margin: auto;
-    /* 8 */
-    grid-gap: 200px;
-    flex-shrink: 2;
-    align-content: flex-start;
+      /* 7 */
+      justify-content: space-between;
+      /* 8 */
+      flex-wrap: wrap;
   }
     /* 9 */
   #three {
       display: grid;
       /* 10 */
-      grid-template-columns: 125px 125px 125px 125px;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
       /* 11 */
-      grid-auto-rows: 100px 100px;
-      justify-content: center;
+      grid-auto-rows: 100px;
   }
