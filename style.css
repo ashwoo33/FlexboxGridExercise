@@ -150,10 +150,6 @@ section:not(#three) {
     grid-column-end: 4;
   }
 
-  #p-seven {
-    /* no style needed */
-  }
-
   #p-eight {
     grid-column-start: 2;
     grid-column-end: 5;
